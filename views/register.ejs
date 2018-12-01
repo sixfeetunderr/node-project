@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>XX后台管理系统</title>
+  <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/common.css">
+  <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+        <form class="form-horizontal" action="/users/register" method="POST">
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">用户名：</label>
+                <div class="col-sm-10">
+                    <input style="width:300px" type="text" name="name"class="form-control" id="inputEmail3" placeholder="请输入用户名">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">密码：</label>
+                <div class="col-sm-10">
+                    <input style="width:300px" type="password" name="pwd" class="form-control" id="inputPassword3" placeholder="请输入密码">
+                </div>
+                </div>
+            <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">昵称：</label>
+                <div class="col-sm-10">
+                    <input style="width:300px" type="text" name="nickname" class="form-control" id="inputPassword3" placeholder="请输入昵称">
+                </div>
+                </div>
+
+            <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">年龄：</label>
+                <div class="col-sm-10">
+                    <input style="width:300px" type="text" name="age" class="form-control" id="inputPassword3" placeholder="请输入年龄">
+                </div>
+                </div>
+
+            <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">性别：</label>
+                <div class="col-sm-10">
+                    <input type="radio" name="sex" value="男" checked="checked"> 男
+                    <input type="radio" name="sex" value="女"> 女
+                </div>
+                </div>
+            <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">是否是管理员：</label>
+                <div class="col-sm-10">
+                    <input type="radio" name="isAdmin" value="是"> 是
+                    <input type="radio" name="isAdmin" value="否"> 否
+                </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">注 册</button>
+                  </div>
+            </div>
+            <a href="/login.html">立即登录</a>
+        </form>
+</body>
+</html>

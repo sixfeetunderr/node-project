@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(71, 161, 197);
+    overflow: hidden;
+}
+.form-horizontal{
+    margin-top:300px;
+    margin-left:500px;
+}
+a{
+    margin-left:170px;
+    color:hotpink;
+}
